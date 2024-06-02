@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>简历</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <style>
+            .cv {
+                font-family: Arial, sans-serif;
+                line-height: 1.8;
+                margin: auto;
+                max-width: 850px;
+                padding: 20px;
+                font-size: 14px;
+            }
+
+            h1,
+            h2,
+            h3,
+            ul,
+            p {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul {
+                margin-left: 18px;
+            }
+
+            .fa {
+                color: #666;
+                margin-right: 5px;
+            }
+
+            .fal {
+                font-size: 18px;
+                vertical-align: middle;
+            }
+
+            a {
+                color: #555;
+            }
+
+            .avatar {
+                width: 80px;
+                margin-right: 20px;
+                float: right;
+            }
+
+            .contact-info {
+                color: #555;
+                margin-bottom: 22px;
+            }
+
+            .contact-info div {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .section {
+                margin-bottom: 5px;
+            }
+
+            .section-title {
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                margin-bottom: 0px;
+            }
+
+            .section-title::after {
+                content: "";
+                flex-grow: 1;
+                height: 2px;
+                background: #000;
+                margin-left: 10px;
+            }
+
+            .job-title,
+            .institution,
+            .project-title,
+            .award-title {
+                font-weight: bold;
+                display: inline-block;
+                padding-top: 5px;
+            }
+
+            .details {
+                margin-left: 5px;
+            }
+
+            .date {
+                float: right;
+                padding-top: 5px;
+            }
+
+            .clear {
+                clear: both;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="cv">
+            <img class="avatar" src="wxf.jpg" />
+            <h1>王衔飞</h1>
+            <div class="contact-info">
+                <div><i class="fa fa-envelope"></i>xianfei@bupt.cn</div>
+                <div>
+                    <i class="fa fa-github fal"></i
+                    ><a href="https://github.com/xianfei">github.com/xianfei</a>
+                </div>
+                <div>
+                    <i class="fa fa-home fal"></i
+                    ><a href="https://blog.xianfei.win">blog.xianfei.win</a>
+                </div>
+            </div>
+
+            <div class="section" style="display: none">
+                <div class="section-title">个人总结</div>
+                <div class="details">
+                    <p>
+                        本人在校成绩优异。乐观向上，工作负责，自我驱动力强，热爱尝试新事物，
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">教育背景</div>
+                <div class="details">
+                    <p>
+                        <span class="institution">
+                            Tufts University, Master of Computer Engineering,
+                            在读硕士研究生
+                        </span>
+                        <span class="date">2023.9 - 至今</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        位于美国波士顿地区，USNews美国大学排名第32名
+                        (2023)，预计2025.6毕业
+                    </p>
+
+                    <p>
+                        <span class="institution">
+                            北京信息科技大学 (BISTU), 双培计划, 软件工程专业,
+                            工学学士
+                        </span>
+                        <span class="date">2021.9 - 2022.6</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        在该校完成毕业设计；所获荣誉：三等奖学金,
+                        北京市普通高等学校优秀本科生毕业设计
+                    </p>
+
+                    <p>
+                        <span class="institution">
+                            北京邮电大学 (BUPT), 双培计划, 软件工程专业
+                        </span>
+                        <span class="date">2018.9 - 2021.7</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        在该校完成本科阶段除毕业设计外所有课程；所获荣誉：优秀团干部，国家级大创项目负责人
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">技术能力</div>
+                <div class="details">
+                    <p>
+                        编程语言：熟悉C++/JavaScript，了解：Java/Python 
+                        熟悉Web全栈（数据库MongoDB，后端Node.js/Express，前端Vue.js）桌面端框架：Vue/Electron 
+                        ；掌握Linux(Debian/Ubuntu)/SSH/Git等开发工具；关注并了解机器学习、大模型领域前沿技术及应用；热爱编程、善于使用创新的方式解决工程问题
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">实习经历</div>
+                <div class="details">
+                    <p>
+                        <span class="job-title">
+                            深圳市腾讯计算机系统有限公司 | Tencent TEG AI Lab
+                            数字人团队，开发实习生（全职）
+                        </span>
+                        <span class="date">2023.2 - 2023.8</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        参与数字人多模态相关开发及研发工作——文字生成语音及对应口型（通过生成式模型）、动作数据的处理（动作捕捉采集来的Metahuman及ARKit关键点时序数据和预测输出的两种格式的数据）、模型间迁移（通过骨骼重映射将面部数据、骨骼姿态数据在不同虚拟形象模型中进行迁移）及可视化（使用UE、Maya渲染白膜及虚拟人）。
+                    </p>
+
+                    <p>
+                        <span class="job-title">
+                            北京白羊科技有限责任公司 | 全栈开发工程师
+                        </span>
+                        <span class="date">2022.6 - 2022.9</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        线上舞蹈教学项目开发，在网页端、手机APP使用MediaPipe
+                        Holistic实时捕捉用户摄像头中的动作数据，并结合使用动作评分算法将用户的动作进行打分来生成对应的教学指导。
+                    </p>
+
+                    <p>
+                        <span class="job-title">
+                            北京智仿科技有限公司 | C++开发工程师（全职）
+                        </span>
+                        <span class="date">2022.3 - 2022.5</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        使用C++语言进行计算机图形学算法（使用Eigen库进行线性代数运算，如旋转矩阵四元数转换等）和逻辑代码编写，用于驱动虚幻引擎项目的部分模型位置与姿态计算及其他开发工作
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">主要项目经历</div>
+                <div class="details">
+                    <p>
+                        <span class="project-title">
+                            毕业设计《视频驱动虚拟角色动作的自动生成系统》SysMocap，个人开源项目
+                        </span>
+                        <span class="date">2022.2 - 2022.6</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        3D虚拟主播及动画制作的桌面端跨平台应用程序，目前在Github上已获得2.4k
+                        Stars，演示视频获得25万播放量及2.7万点赞数。主要包含以下功能：
+                    </p>
+                    <ul>
+                        <li>
+                            基于Mediapipe与Kalidokit实时评估视频中人物的位置及姿态
+                        </li>
+                        <li>
+                            可管理与驱动具有不同骨骼坐标系不同模型格式（FBX、GLB、VRM）的三维虚拟形象
+                        </li>
+                        <li>
+                            可将生成的虚拟形象用于OBS直播软件进行直播，并首创及实现了适用于VR/AR/MR的虚拟形象实景直播方案
+                        </li>
+                        <li>简洁美观的桌面GUI设计及流畅的动画</li>
+                    </ul>
+
+                    <p>
+                        视频:
+                        <a href="https://bilibili.com/video/av727029952"
+                            >bilibili.com/video/av727029952</a
+                        >
+                          源代码:
+                        <a href="https://github.com/xianfei/SysMocap"
+                            >github.com/xianfei/SysMocap</a
+                        >
+                          博客:
+                        <a href="https://blog.xianfei.win/p/bishe/"
+                            >blog.xianfei.win/p/bishe/</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title">
+                            国家级大学生创新创业训练项目《北邮课程小助手》，项目负责人，前端及硬件开发
+                        </span>
+                        <span class="date">2019.10 - 2020.6</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        结合日常上课中遇到的教学难题及线上教学需求设计的教学辅助系统，主要包含以下功能：
+                    </p>
+                    <ul>
+                        <li>
+                            基于蓝牙的被动式签到系统，同学只需携带开启蓝牙的手机或可穿戴设备进入教室即可完成签到
+                        </li>
+                        <li>
+                            基于机器学习的智能点名系统，根据历史成绩、作业提交情况、出勤情况智能推荐可能能够回答和可能不能回答及可能没来的同学
+                        </li>
+                        <li>
+                            桌面客户端，可用于查询教务系统中的成绩、课表及信息门户中的新闻
+                        </li>
+                        <li>在线笔记及课件管理、直播系统等</li>
+                    </ul>
+                    <p>
+                        演示视频：<a
+                            href="https://bilibili.com/video/av674852636"
+                            >bilibili.com/video/av674852636 </a
+                        >   部分源代码及介绍：<a
+                            href="https://github.com/xianfei/BUPT-Course-Assistant"
+                            >github.com/xianfei/BUPT-Course-Assistant</a
+                        >
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">发表论文</div>
+                <div class="details">
+                    <p>
+                        <span class="project-title">
+                            Real-time Expressive Avatar Animation Generation
+                            based on Monocular Videos
+                        </span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        IEEE ISMAR 2022, CCF-B学术会议, DOI:
+                        10.1109/ISMAR-Adjunct57072.2022.00092
+                    </p>
+                    <p>
+                        此文章是SysMocap技术算法相关论文，讲述如何创建一套骨骼重映射算法，来驱动不同种类的虚拟形象。
+                    </p>
+                    <p>
+                        在线阅读/下载：<a
+                            href="https://papers.xianfei.win/ismar22/"
+                            >papers.xianfei.win/ismar22/</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title"
+                            >UPSR: a Unified Proxy Skeleton Retargeting Method
+                            for Heterogeneous Avatar Animation</span
+                        >
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        IEEE VR 2023，CCF-A学术会议，DOI:
+                        10.1109/VRW58643.2023.00276，内容和上面那个差不多
+                    </p>
+                    <p>
+                        在线阅读/下载：<a
+                            href="https://papers.xianfei.win/vrw23/"
+                            >papers.xianfei.win/vrw23/</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title"
+                            >视频驱动虚拟角色动作的自动生成系统的设计与实现</span
+                        >
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        本科毕业设计论文；详细讲述了调研、设计、开发过程，在线阅读/下载：<a
+                            href="https://papers.xianfei.win/grad/"
+                            >papers.xianfei.win/grad/</a
+                        >
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">竞赛、技能及其他</div>
+                <div class="details">
+                    <p>
+                        <b>竞赛获奖经历：</b>
+                        微软创新杯（Imagine Cup）北京赛区二等奖、“挑战杯”
+                        首都大学生创业计划竞赛 金奖
+                    </p>
+
+                    <p>
+                        <b>社团和组织经历：</b>
+                        曾任北邮摄影社社长、ifLab(<a
+                            href="https://www.iflab.org/"
+                            >iflab.org</a
+                        >)学生导师、北邮2019级《软件工程专业导论》课程助教
+                    </p>
+
+                    <p>
+                        <b>其他技能：</b>
+                        擅长摄影摄像，运营自媒体微信公众号：Xianfei，Bilibili：xianfei，熟悉使用Premiere及Photoshop
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">更多项目经历</div>
+                <div class="details">
+                    <p>
+                        <span class="project-title">
+                            开源项目《Web静态相册生成器：zing-gallery-next》，个人开发
+                        </span>
+                        <span class="date">2023.7 - 2023.9</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        Node.js生成静态相册的工具，支持图片排序、图片描述、图片压缩等功能，目前用于个人博客的摄影作品展示
+                    </p>
+
+                    <p>
+                        展示：<a href="https://photography.xianfei.win/"
+                            >photography.xianfei.win</a
+                        >      源代码：<a
+                            href="https://github.com/xianfei/zing-gallery-next"
+                            >github.com/xianfei/zing-gallery-next</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title">
+                            课程项目《奶黄喵——用户可编程的交互式社交软件》，小组开发，本人担任前端、客户端开发
+                        </span>
+                        <span class="date">2021.9 - 2021.11</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        在开发社交软件时，本人提出了一个创新点，即将小程序与动态页面结合，用户可以发表程序作为动态。并使用JavaScript编写了C语言解释器使得可以在前端解释C语言程序（实现了除指针以外的大部分特性）。
+                        <br />介绍博客：<a
+                            href="https://blog.xianfei.win/p/nhm/"
+                            >blog.xianfei.win/p/nhm/</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title">
+                            课程项目《飞飞网盘——基于HDFS的分布式网盘》，小组开发，本人担任部署与后端接口设计
+                        </span>
+                        <span class="date">2021.3 - 2021.6</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        在四台云服务器上部署Hadoop & HDFS服务，并编写HDFS Java
+                        API部分，实现了分布式云存储及负载均衡。
+                        <br />介绍博客：<a
+                            href="https://blog.xianfei.win/p/hdfs/"
+                            >blog.xianfei.win/p/hdfs/</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title">
+                            北京邮电大学大学生创新创业训练《跨平台适用于不同语言图形库》，市级大创项目
+                        </span>
+                        <span class="date">2020.10 - 2021.5</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        该项目提出了一种为不同编程语言设计一套基于Web的图形库，目前支持C/C++/Python，完成基本输入、按键点击、绘制图形图片及文字功能，并借助Socket及WebSocket技术，使桌面程序可以以前后端模式运行（类似于长连接的CGI），目前已经应用在北邮软件工程专业大一C++课程教学之中。
+                        <br />源代码及介绍：<a
+                            href="https://github.com/xianfei/fxdrawer"
+                            >github.com/xianfei/fxdrawer</a
+                        >
+                    </p>
+
+                    <p>
+                        <span class="project-title">
+                            个人开发《基于Arduino的b站粉丝数时钟》
+                        </span>
+                        <span class="date">2019.10 - 2019.11</span>
+                    </p>
+                    <div class="clear"></div>
+                    <p>
+                        可以显示自己B站粉丝数的自动网络校时的万年历时钟，使用Arduino
+                        UNO+W5100 网络扩展板+1602 I2C
+                        液晶显示屏制作。使用C++语言编写代码，通过B站API获取粉丝数并显示在屏幕上。
+                    </p>
+
+                    <p>
+                        演示视频：<a
+                            href="https://bilibili.com/video/av75228139"
+                            >bilibili.com/video/av75228139</a
+                        >
+                        &nbsp; 源代码：<a
+                            href="https://github.com/xianfei/Arduino-bilifans-clock"
+                            >github.com/xianfei/Arduino-bilifans-clock</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
